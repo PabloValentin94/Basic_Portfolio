@@ -33,7 +33,7 @@ body {
 
     height: 100%;
     width: 100%;
-    display: grid;
+    display: none;
     grid-template-rows: 75px auto 100px;
     background-color: transparent;
     overflow-x: hidden;
@@ -42,6 +42,7 @@ body {
 
 header {
 
+    grid-row: 1;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -86,6 +87,7 @@ header nav .home-btn {
 
 main {
 
+    grid-row: 2;
     height: 100%;
     width: 100%;
     display: flex;
@@ -168,6 +170,7 @@ main #home-section figure:hover {
 
 footer {
 
+    grid-row: 3;
     display: flex;
     align-items: center;
     justify-content: space-between;

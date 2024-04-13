@@ -15,7 +15,7 @@ function getResolution()
     else
     {
 
-        document.getElementById("container").style.display = "flex";
+        document.getElementById("container").style.display = "grid";
 
     }
 
