@@ -1,6 +1,6 @@
 // Funções:
 
-function getResolution()
+/*function getResolution()
 {
 
     if(window.innerWidth >= 1250)
@@ -19,11 +19,11 @@ function getResolution()
 
     }
 
-}
+}*/
 
 // Eventos:
 
-window.onload = () => {
+/*window.onload = () => {
 
     getResolution();
 
@@ -33,4 +33,4 @@ document.body.onresize = () => {
 
     getResolution();
 
-}
+}*/
